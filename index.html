@@ -1,0 +1,366 @@
+<!doctype html>
+<html lang="ar-eg">
+<head>
+<meta charset="utf-8">
+<title>hookup- let us be your plug</title>
+<meta name="viewport" content="width=1024">
+<link href="P-IMG-20230113-WA0027-removebg-preview.png" rel="icon" sizes="560x445" type="image/png">
+<link href="https://fonts.googleapis.com/css?family=Baloo Tamma" rel="stylesheet">
+
+<link href='font-awesome.min.css' rel= "stylesheet">
+
+<link href="hookup_black.css" rel="stylesheet">
+<link href="hookup.css" rel="stylesheet">
+<script src="popper.min.js"></script>
+<script src="bootstrap.min.js"></script>
+<script src="jquery-3.6.0.min.js"></script>
+<script src="skrollr.min.js"></script>
+<script src="jquery-ui.min.js"></script>
+<script src="wwb18.min.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function(event)
+{
+   var DropdownMenu2_dropdownToggle = document.querySelectorAll('#DropdownMenu2 .dropdown-toggle');
+   DropdownMenu2_dropdownToggle.forEach(item => 
+   {
+      var dropdown = new bootstrap.Dropdown(item, {popperConfig:{placement:item.getAttribute('data-bs-placement')}});
+   });
+   var DropdownMenu2_dropdown = document.querySelectorAll('#DropdownMenu2 .dropdown');
+   DropdownMenu2_dropdown.forEach(item => 
+   {
+      item.addEventListener('shown.bs.dropdown', function(e)
+      {
+         e.currentTarget.classList.add('show');
+      });
+      item.addEventListener('hidden.bs.dropdown', function(e)
+      {
+         e.currentTarget.classList.remove('show');
+      });
+   });
+   var Carousel1 = new bootstrap.Carousel('#Carousel1', {interval: 3000, pause: false});
+});
+</script>
+<script>
+$(document).ready(function()
+{
+   $('#wb_FontAwesomeIcon3').addClass('visibility-hidden');
+   function onScrollFontAwesomeIcon3()
+   {
+      var $obj = $("#wb_FontAwesomeIcon3");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('wb_FontAwesomeIcon3', 'transform-lightspeed-in', 100, 1000);
+      }
+   }
+   onScrollFontAwesomeIcon3();
+   $(window).scroll(function(event)
+   {
+      onScrollFontAwesomeIcon3();
+   });
+   $("a[href*='#layoutGridInfo3']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_layoutGridInfo3').offset().top-68 }, 600, 'easeOutCirc');
+   });
+   function skrollrInit()
+   {
+      skrollr.init({forceHeight: false, mobileCheck: function() { return false; }, smoothScrolling: false});
+   }
+   skrollrInit();
+   $("a[href*='#wb_contact']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_contact').offset().top-80 }, 600, 'easeInQuad');
+   });
+});
+</script>
+</head>
+<body>
+<div id="container">
+</div>
+<nav id="Layer1" style="position:fixed;text-align:left;left:0;top:0;right:0;height:112px;z-index:59;">
+<div id="wb_Text1" style="position:absolute;left:48px;top:81px;width:203px;height:31px;z-index:2;">
+<span style="color:#FFFFFF;font-family:'Baloo Tamma';font-size:19px;">let us be </span><span style="color:#FFD700;font-family:'Baloo Tamma';font-size:19px;">YOUR PLUG</span></div>
+<div id="wb_LayoutGrid1">
+<nav id="LayoutGrid1">
+<div class="col-1">
+<div id="wb_FontAwesomeIcon3" style="display:inline-block;width:57px;height:27px;text-align:center;z-index:0;">
+<a href="https://chat.whatsapp.com/DoqV8MRDy3W7BTHZ6wTcV7"><div id="FontAwesomeIcon3"><i class="fa fa-whatsapp"></i></div></a>
+</div>
+</div>
+<div class="col-2">
+<div id="wb_DropdownMenu2" style="display:inline-block;width:100%;text-align:right;z-index:1;">
+<div id="DropdownMenu2" class="DropdownMenu2" style ="width:100%;height:auto !important;">
+<div class="container">
+<div class="navbar-header">
+<button title="Hamburger Menu" type="button" class="navbar-toggle" data-bs-toggle="collapse" data-bs-target=".DropdownMenu2-navbar-collapse">
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+</div>
+<div class="DropdownMenu2-navbar-collapse collapse">
+<ul class="nav navbar-nav">
+<li class="nav-item">
+<a href="" class="nav-link">Home</a>
+</li>
+<li class="nav-item">
+<a href="#wb_about_" class="nav-link">About</a>
+</li>
+<li class="nav-item">
+<a href="#wb_contact" class="nav-link" onclick="ShowObject('', 1);return false;">Contact</a>
+</li>
+<li class="nav-item">
+<a href="#wb_services" class="nav-link">Service</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</nav>
+</div>
+<div id="wb_Image1" style="position:absolute;left:48px;top:0px;width:149px;height:106px;z-index:4;">
+<img src="images/P-IMG-20230113-WA0027-removebg-preview.png" id="Image1" alt="" width="149" height="118"></div>
+<div id="wb_Image2" style="position:absolute;left:54px;top:24px;width:137px;height:48px;z-index:5;">
+<img src="images/226-2267889_animated-circle-gif-transparent.gif" id="Image2" alt="" width="137" height="137"></div>
+</nav>
+<div id="wb_Carousel1" style="">
+<div id="Carousel1" class="carousel slide" data-bs-ride="carousel">
+<ol class="carousel-indicators">
+<li data-bs-target="#Carousel1" data-bs-slide-to="0" class="active"></li>
+<li data-bs-target="#Carousel1" data-bs-slide-to="1"></li>
+<li data-bs-target="#Carousel1" data-bs-slide-to="2"></li>
+</ol>
+<div class="carousel-inner">
+<div class="carousel-item frame-1 active">
+<div class="carousel-item-inner">
+</div>
+</div>
+<div class="carousel-item frame-2">
+<div class="carousel-item-inner">
+</div>
+</div>
+<div class="carousel-item frame-3">
+<div class="carousel-item-inner">
+</div>
+</div>
+</div>
+<a class="carousel-item-start carousel-control" href="#Carousel1" role="button" data-bs-slide="prev">
+<span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="sr-only">Previous</span>
+</a>
+<a class="carousel-item-end carousel-control" href="#Carousel1" role="button" data-bs-slide="next">
+<span class="carousel-control-next-icon" aria-hidden="true"></span><span class="sr-only">Next</span>
+</a>
+</div>
+</div>
+
+<div id="wb_LayoutGrid2">
+<div id="LayoutGrid2">
+<div class="row">
+<div class="col-1">
+<div id="wb_about_">
+<span style="color:#FFFFFF;font-family:'Baloo Tamma';font-size:29px;">About</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_layoutGridInfo3">
+<div id="layoutGridInfo3">
+<div class="row">
+<div class="col-1">
+<div class="col-1-padding">
+<div id="wb_Shape4" style="display:inline-block;width:205px;height:258px;opacity:0.50;z-index:10;position:relative;">
+<img src="images/img0001.png" id="Shape4" alt="" width="205" height="258" style="width:205px;height:258px;">
+</div>
+<div id="wb_Text5">
+<span style="color:#FFFFFF;font-family:'Baloo Tamma';font-size:13px;"><br>KINGSLEY, OWUSU<br>Civil Engineer</span>
+</div>
+</div>
+</div>
+<div class="col-2">
+<div id="wb_Shape2" style="display:inline-block;width:205px;height:265px;opacity:0.50;z-index:12;position:relative;">
+<img src="images/img0002.png" id="Shape2" alt="" width="205" height="265" style="width:205px;height:265px;">
+</div>
+<div id="wb_Text3">
+<span style="color:#FFFFFF;font-family:'Baloo Tamma';font-size:13px;"><br>MANASSEH, MINEWULI<br>Data Analyst and Web Designer </span>
+</div>
+</div>
+<div class="col-3">
+<div id="wb_Shape1" style="display:inline-block;width:205px;height:251px;opacity:0.50;z-index:14;position:relative;">
+<img src="images/img0003.png" id="Shape1" alt="" width="205" height="251" style="width:205px;height:251px;">
+</div>
+<div id="wb_Text10">
+<span style="color:#FFFFFF;font-family:'Baloo Tamma';font-size:13px;"><br>KWAKU, FRIMPONG<br>Computer Engineer</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid3">
+<div id="LayoutGrid3">
+<div class="row">
+<div class="col-1">
+<div id="wb_services">
+<span style="color:#FFFFFF;font-family:'Baloo Tamma';font-size:29px;">SERVICES</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="FlexGrid2" data--200-bottom-top="transform:;" data-center-bottom="opacity:1;">
+<div id="FlexGrid2-grid">
+<div class="section1">
+<div id="wb_Image5" style="display:inline-block;width:100%;height:auto;z-index:17;">
+<img src="images/app-builder-banner.png" id="Image5" alt="" width="286" height="191">
+</div>
+</div>
+<div class="section2">
+<div id="wb_Image7" style="display:inline-block;width:100%;height:auto;z-index:18;">
+<img src="images/iPhone-14-Pro-PNG.png" id="Image7" alt="" width="286" height="225">
+</div>
+</div>
+<div class="section3">
+<div id="wb_Image8" style="display:inline-block;width:100%;height:auto;z-index:19;">
+<img src="images/laptop-1.png" id="Image8" alt="" width="286" height="160">
+</div>
+</div>
+<div class="section5">
+<div id="wb_Image28" style="display:inline-block;width:100%;height:auto;z-index:20;">
+<img src="images/apple-airpods-pro-2nd-gen-hero-220907-1662579992347-1662989441835.jpg" id="Image28" alt="" width="133" height="106">
+</div>
+</div>
+<div class="section6">
+<div id="wb_Image4" style="display:inline-block;width:100%;height:auto;z-index:21;">
+<img src="images/S8vUWKcUd_dW3_nyO4h-EMWHul_SxlBUNFBW32ObyRc.png" id="Image4" alt="" width="133" height="75">
+</div>
+</div>
+<div class="section7">
+<div id="wb_Image11" style="display:inline-block;width:100%;height:auto;z-index:22;">
+<img src="images/pngtree-web-development-illustration-modern-can-be-used-for-landing-pages-web-png-image_1496210-removebg-preview.png" id="Image11" alt="" width="592" height="592">
+</div>
+</div>
+<div class="section4">
+<hr id="Line2" style="display:block;width: 100%;z-index:23;">
+<div id="wb_Heading2" style="display:inline-block;width:100%;z-index:24;">
+<h2 id="Heading2">Services and Offers</h2>
+</div>
+<div id="wb_Text7">
+<span style="color:#4F4F4F;font-family:'Baloo Tamma';font-size:13px;line-height:21px;">Hookup deals with gadgets such as <br>1. Computers with all brands and specs.<br>2. IPhones and Type C charges.<br>3. Airpods. <br>from trusted dealers who sells these gadgets to connect with us to reach customers.<br>Any trusted dealer who wants to partner with use should not hesitate to contact us.<br><br>Hookup also offer training in various Campuses and etc . Below are some tools and <br>1. Python Progamming.<br>2. Web Design<br>3. Desktop application design..<br>4. Microsoft Power BI <br>5. Tableau.<br>6. Adobe Photoshop.<br>7. Revit and Autocad.<br>8. IPhone unlocking tools.&nbsp; and many more</span>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid7" data--200-bottom-top="opacity:0;" data-center-bottom="opacity:1;">
+<div id="LayoutGrid7">
+<div class="row">
+<div class="col-1">
+<div id="wb_Heading3" style="display:inline-block;width:100%;z-index:26;">
+<h6 id="Heading3">Learn, Create and Build something beautiful with us through training..........</h6>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="FlexGrid3" data--200-bottom-top="opacity:0;" data-center-bottom="opacity:1;">
+<div id="FlexGrid3-grid">
+<div class="section1">
+<div id="wb_Image15" style="display:inline-block;width:100%;height:auto;z-index:27;">
+<img src="images/Python-logo-notext.svg.png" id="Image15" alt="" title="Python Programming" width="286" height="313">
+</div>
+</div>
+<div class="section2">
+<div id="wb_Image16" style="display:inline-block;width:100%;height:auto;z-index:28;">
+<img src="images/630px-New_Power_BI_Logo.svg.png" id="Image16" alt="" title="Microsoft Power BI" width="286" height="286">
+</div>
+</div>
+<div class="section3">
+<div id="wb_Image17" style="display:inline-block;width:100%;height:auto;z-index:29;">
+<img src="images/241-2412470_transparent-autodesk-logo-png-revit-logo-png-download-1.png" id="Image17" alt="" title="AutoDesk Revit" width="286" height="363">
+</div>
+</div>
+<div class="section5">
+<div id="wb_Image6" style="display:inline-block;width:100%;height:auto;z-index:30;">
+<img src="images/Adobe_Photoshop_CC_icon.svg.png" id="Image6" alt="" title="Adobe Photoshop" width="133" height="130">
+</div>
+</div>
+<div class="section4">
+<div id="wb_Image18" style="display:inline-block;width:100%;height:auto;z-index:31;">
+<img src="images/autocad_logo.jpg" id="Image18" alt="" title="AutoCad" width="439" height="432">
+</div>
+</div>
+<div class="section6">
+<div id="wb_Image9" style="display:inline-block;width:100%;height:auto;z-index:32;">
+<img src="images/0f288e38500469.560690977e5d4.png" id="Image9" alt="" title="IPhone Unlocking Tool" width="133" height="84">
+</div>
+</div>
+<div class="section8">
+<div id="wb_Image3" style="display:inline-block;width:100%;height:auto;z-index:33;">
+<img src="images/1667939713_wwb_toolbox2023.png" id="Image3" alt="" title="WYSIWYG web builder" width="286" height="245">
+</div>
+</div>
+<div class="section7">
+<div id="wb_Image10" style="display:inline-block;width:100%;height:auto;z-index:34;">
+<img src="images/Tableau-Emblem.png" id="Image10" alt="" title="Tableau " width="133" height="75">
+</div>
+</div>
+</div>
+</div>
+<div id="upStickyLayer" style="position:fixed;text-align:left;left:auto;right:25px;top:auto;bottom:25px;width:50px;height:50px;z-index:60;"> 
+<div id="wb_upIcon" style="position:absolute;left:9px;top:9px;width:24px;height:24px;text-align:center;z-index:35;">
+<a href="#container"><div id="upIcon"><i class="fa fa-arrow-up"></i></div></a></div>
+</div>
+<div id="wb_contact">
+<div id="contact">
+<div class="row">
+<div class="col-1">
+<div id="wb_Heading1" style="display:inline-block;width:100%;z-index:45;">
+<h1 id="Heading1">CONTACT US</h1>
+</div>
+<div id="wb_Shape3" style="display:inline-block;width:111px;height:6px;z-index:46;position:relative;">
+<div id="Shape3"></div>
+</div>
+<div id="wb_Text16">
+<span style="color:#FFFFFF;font-family:'Baloo Tamma';font-size:15px;">Contact us for more information. We'll hook you up what ever you need.<br></span><span style="color:#FFFF00;font-family:'Baloo Tamma';font-size:15px;">Let us be your plug</span>
+</div>
+<div id="wb_LayoutGrid6">
+<form name="LayoutGrid6" method="post" action="mailto:yourname@yourdomain.com" enctype="text/plain" id="LayoutGrid6">
+<div class="row">
+<div class="col-1">
+<div id="wb_Text8">
+<span style="color:#FFFF00;font-family:'Baloo Tamma';font-size:20px;">Location: </span><span style="color:#FFFFFF;font-family:'Baloo Tamma';font-size:13px;">Obuasi and Sunyani (UNER Campus)<br></span><span style="color:#FFFF00;font-family:'Baloo Tamma';font-size:20px;">Tel: </span><span style="color:#FFFFFF;font-family:'Baloo Tamma';font-size:13px;"> +233 (0) 55 218 7457&nbsp; <br>&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; +233 (0) 50 402 5082<br>&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; +233 (0) 55 300 7627<br><br></span>
+</div>
+<div id="wb_Icon1" style="display:inline-block;width:32px;height:32px;text-align:center;z-index:37;">
+<a href="./hookup.html"><div id="Icon1"><i class="fa fa-facebook"></i></div></a>
+</div>
+<div id="wb_FontAwesomeIcon8" style="display:inline-block;width:32px;height:32px;text-align:center;z-index:38;">
+<a href="./hookup.html"><div id="FontAwesomeIcon8"><i class="fa fa-twitter"></i></div></a>
+</div>
+<div id="wb_FontAwesomeIcon10" style="display:inline-block;width:32px;height:32px;text-align:center;z-index:39;">
+<a href="./hookup.html"><div id="FontAwesomeIcon10"><i class="fa fa-instagram"></i></div></a>
+</div>
+<div id="wb_FontAwesomeIcon2" style="display:inline-block;width:32px;height:32px;text-align:center;z-index:40;">
+<a href="mailto:hookup.business@gmail.com"><div id="FontAwesomeIcon2"><i class="fa fa-envelope"></i></div></a>
+</div>
+</div>
+<div class="col-2">
+<input type="text" id="Editbox2" style="display:block;width: 100%;height:42px;z-index:41;" name="name" value="" spellcheck="false" placeholder="Name">
+<input type="text" id="Editbox3" style="display:block;width: 100%;height:42px;z-index:42;" name="email" value="" spellcheck="false" placeholder="E-mail">
+<input type="text" id="Editbox1" style="display:block;width: 100%;height:42px;z-index:43;" name="message" value="" spellcheck="false" placeholder="Message">
+<a id="Button1" href="https://chat.whatsapp.com/DoqV8MRDy3W7BTHZ6wTcV7" style="display:inline-block;width:188px;height:40px;z-index:44;">Send message</a>
+</div>
+</div>
+</form>
+</div>
+<div id="wb_Text9">
+<span style="color:#FFFFFF;font-family:'Baloo Tamma';font-size:13px;">All rights reserved<br>copyright © </span><span style="color:#FFFF00;font-family:'Baloo Tamma';font-size:13px;"><strong>hookup</strong></span><span style="color:#FFFFFF;font-family:'Baloo Tamma';font-size:13px;"><strong> 2023</strong>.<br></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
